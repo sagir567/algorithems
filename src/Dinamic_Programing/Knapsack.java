@@ -1,4 +1,4 @@
-package GreedyAlgos;
+package Dinamic_Programing;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +15,7 @@ import java.util.List;
  * @ capacity       is the capacity of the knapsack
  *                  the knapsack can hold a maximum weight of capacity
  * @T(n)=O(nW)
+ *
  *                  where n is the number of items and W is the capacity of the knapsack
  *                  the time complexity is O(nW) because we have to fill the ValueMatrix
  *                  which is of size n*W
